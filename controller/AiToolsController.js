@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 dotenv.config({ path: './config.env' });
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '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',
 });
 
 const openai = new OpenAIApi(configuration);
