@@ -1,11 +1,8 @@
-const { PDFNet } = require('@pdftron/pdfnet-node');
 const express = require('express');
 const path = require('path');
-const fs = require('fs');
+
 const cors = require('cors');
-const multer = require('multer');
-const pdfToExcelGenerator = require('pdf-to-excel');
-const pdf2html = require('pdf2html');
+
 var bodyParser = require('body-parser');
 const dotenv = require('dotenv');
 const port = process.env.PORT || 4000;
